@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lodge Timeline</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>New Zealand Masonic Lodge Timeline</h1>
+      <p>Consecrations, sponsorships, amalgamations, renamings, and closures.</p>
+    </div>
+    <nav>
+      <a href="index.html">Network</a>
+      <a href="timeline.html" class="active">Timeline</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <input id="timelineSearch" type="search" placeholder="Search timeline..." />
+      <select id="eventTypeFilter">
+        <option value="">All event types</option>
+        <option value="Consecrated">Consecrated</option>
+        <option value="Sponsored">Sponsored</option>
+        <option value="Amalgamated">Amalgamated</option>
+        <option value="Renamed">Renamed</option>
+        <option value="Closed">Closed</option>
+        <option value="Other">Other</option>
+      </select>
+    </section>
+
+    <section id="timeline" class="timeline">
+      <p>Loading timeline...</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Back to network</a></p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/timeline.js"></script>
+</body>
+</html>

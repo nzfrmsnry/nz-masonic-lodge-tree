@@ -1,0 +1,4 @@
+RelationshipID,FromLodgeID,ToLodgeID,RelationshipType,RelationshipDate,Notes,Approved
+rel_0001,lodge_0001,lodge_0002,Sponsored,1895-05-10,Lodge Alpha sponsored Lodge Beta.,Yes
+rel_0002,lodge_0002,lodge_0004,AmalgamatedInto,1981-01-01,Lodge Beta amalgamated into Lodge Alpha-Beta.,Yes
+rel_0003,lodge_0003,lodge_0004,AmalgamatedInto,1981-01-01,Lodge Gamma amalgamated into Lodge Alpha-Beta.,Yes

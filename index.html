@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Zealand Masonic Lodge Family Tree</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>New Zealand Masonic Lodge Family Tree</h1>
+      <p>Interactive network of lodge sponsorships, amalgamations, and history.</p>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Network</a>
+      <a href="timeline.html">Timeline</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <input id="searchBox" type="search" placeholder="Search lodge name or number..." />
+      <select id="statusFilter">
+        <option value="">All statuses</option>
+        <option value="Active">Active</option>
+        <option value="Closed">Closed</option>
+        <option value="Amalgamated">Amalgamated</option>
+        <option value="Historical">Historical</option>
+        <option value="Unknown">Unknown</option>
+      </select>
+      <button id="fitButton">Fit view</button>
+    </section>
+
+    <section class="legend">
+      <span><strong>Node:</strong> Lodge</span>
+      <span><strong>Solid line:</strong> Sponsored</span>
+      <span><strong>Dashed line:</strong> Amalgamation / other relationship</span>
+      <span><strong>Tip:</strong> Click a lodge to open details</span>
+    </section>
+
+    <section id="cy" aria-label="Interactive lodge network"></section>
+
+    <section class="note">
+      <p>
+        This website loads lodge data from Google Sheets or local CSV files.
+        Edit <code>js/config.js</code> to add your published Google Sheet CSV links.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Maintained from Google Sheets. Hosted as a static website.</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/network.js"></script>
+</body>
+</html>

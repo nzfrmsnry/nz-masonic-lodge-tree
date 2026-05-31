@@ -1,0 +1,4 @@
+EventID,LodgeID,EventDate,EventType,EventTitle,EventDescription,Approved
+event_0001,lodge_0001,1880-01-15,Consecrated,Lodge Alpha consecrated,Sample timeline event.,Yes
+event_0002,lodge_0002,1895-05-10,Consecrated,Lodge Beta consecrated,Sample timeline event.,Yes
+event_0003,lodge_0004,1981-01-01,Amalgamated,Lodge Alpha-Beta formed,Sample amalgamation event.,Yes

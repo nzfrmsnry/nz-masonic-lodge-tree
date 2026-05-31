@@ -1,0 +1,2 @@
+AmalgamationID,AmalgamationDate,OriginalLodgeIDs,ResultLodgeID,ResultLodgeName,ResultLodgeNumber,NumberRetainedFrom,NameType,Notes,Approved
+amalg_0001,1981-01-01,"lodge_0002,lodge_0003",lodge_0004,Lodge Alpha-Beta,12,lodge_0001,Conjoined name,Sample amalgamation only.,Yes

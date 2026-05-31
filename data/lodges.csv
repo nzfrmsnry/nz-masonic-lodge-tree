@@ -1,0 +1,5 @@
+LodgeID,LodgeName,LodgeNumber,PreviousNames,PreviousNumbers,Status,ConsecrationDate,ClosureDate,Location,Constitution,CrestImage,ShortHistory,FullHistory,Notes,Approved
+lodge_0001,Lodge Alpha,1,,,Active,1880-01-15,,Auckland,NZC,images/crests/generic-square-compass.svg,Sample active lodge.,This is sample history for Lodge Alpha.,Replace with real data.,Yes
+lodge_0002,Lodge Beta,2,,,Closed,1895-05-10,1980-09-30,Wellington,NZC,images/crests/generic-square-compass.svg,Sample closed lodge.,This is sample history for Lodge Beta.,Replace with real data.,Yes
+lodge_0003,Lodge Gamma,3,,,Amalgamated,1905-03-22,,Christchurch,NZC,images/crests/generic-square-compass.svg,Sample amalgamated lodge.,This is sample history for Lodge Gamma.,Replace with real data.,Yes
+lodge_0004,Lodge Alpha-Beta,12,Lodge Alpha United,,Active,1981-01-01,,Auckland,NZC,images/crests/generic-square-compass.svg,Sample lodge formed after amalgamation.,This is sample history for Lodge Alpha-Beta.,Replace with real data.,Yes
