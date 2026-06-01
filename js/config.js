@@ -22,5 +22,5 @@ const APP_CONFIG = {
   defaultCrestImage: "images/crests/generic-square-compass.svg",
 
   // Set to true to show only rows where Approved = Yes.
-  approvedOnly: false
+  approvedOnly: true
 };
